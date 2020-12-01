@@ -8,9 +8,9 @@ import {homeObjOne} from './content'
 class Body extends Component {
     render() {
         return(
-            <>
+            <div>
                 <HeroSection {...homeObjOne} />
-            </>
+            </div>
         );
     }
 }

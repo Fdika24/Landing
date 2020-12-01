@@ -8,7 +8,7 @@ function HeroSection({
     lightBg, topLine,lightText, lightTextDesc, headline, description, button , img, alt, imgStart, buttonLabel
                      }) {
     return (
-        <>
+
             <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBG'}>
                 <div className="container">
                     <div className="row home__hero-row" style={{display : 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
@@ -30,7 +30,6 @@ function HeroSection({
                     </div>
                 </div>
             </div>
-        </>
     );
 }
 

@@ -32,7 +32,7 @@ class Navbar extends Component {
             <div className='container' onScroll={this.handleScroll}>
 
                 {/* Note here this.scroll.scrolled changes to this.state.scrolled */}
-                <nav className={this.state.scrolled ? "NavbarItems" : "NavbarItems Scroll"}>
+                <nav className={this.state.scrolled ? "NavbarItems Scroll" : "NavbarItems"}>
                     <h1 className="navbar-logo">React <i className="fab fa-react"></i></h1>
                     <div className="menu-icon" onClick={this.handleClick}>
                         <i className={this.state.clicked ? "fas fa-times" : 'fas fa-bars'}></i>
@@ -48,7 +48,6 @@ class Navbar extends Component {
                             })
                         }
                     </ul>
-                    <Button> Contact US </Button>
                 </nav>
 
             </div>
