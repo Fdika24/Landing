@@ -1,5 +1,5 @@
-.container {
-    position: absolute;
+.mycontainer {
+    position: fixed;
     width: 100%;
 }
 
@@ -47,7 +47,7 @@
 }
 .nav-links:hover { /* the hover bar, the animation of the navbar bich*/
     color: whitesmoke;
-    background: mediumpurple;
+    background: #7577fa;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }

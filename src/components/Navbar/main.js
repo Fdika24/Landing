@@ -29,7 +29,7 @@ class Navbar extends Component {
 
     render() {
         return(
-            <div className='container' onScroll={this.handleScroll}>
+            <div className='mycontainer' onScroll={this.handleScroll}>
 
                 {/* Note here this.scroll.scrolled changes to this.state.scrolled */}
                 <nav className={this.state.scrolled ? "NavbarItems Scroll" : "NavbarItems"}>
