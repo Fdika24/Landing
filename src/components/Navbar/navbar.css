@@ -1,20 +1,24 @@
 .mycontainer {
-    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 200%;
 }
 
 
 .NavbarItems {
-    position: sticky;
-    background: white;
+    position: fixed;
+    width: 100vw;
     height: 85px;
+    background-color: white;
+    transition: 0.2s;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    justify-content: center;
 }
-.Scroll {
-    box-shadow: 0px 1px 10px #999;
+.NavbarItems.Scroll {
+    box-shadow: 0px 1px 4px #999;
 }
 
 .navbar-logo {
@@ -67,7 +71,7 @@
 
 @media screen and (max-width: 960px) {
     .NavbarItems {
-        position: relative;
+        position: fixed;
     }
     .nav-menu {
         display: none;
@@ -87,6 +91,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        height: 900px;
     }
     .nav-links{
         text-align: center;

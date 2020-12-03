@@ -1,23 +1,22 @@
 .home__hero-section {
+    background-color: white;
     color : black;
     padding: 120px 0;
+    justify-content: center;
 }
 
-.container {
-
-}
 
 .home__hero-row {
     position: static;
 }
-.row {
+/*.row {
     display: flex;
     margin-right: -15px;
     margin-bottom: -15px;
     margin-right: -15px;
     flex-wrap: wrap;
     align-content: stretch;
-}
+}*/
 
 .col {
     margin-bottom: 15px;
@@ -27,6 +26,7 @@
     max-width: 50%;
     flex-basis: 50%;
 }
+
 
 
 .home__hero-text-wrapper {

@@ -2,7 +2,7 @@ import myImage from '../images/work.svg'
 
 
 export const homeObjOne ={
-    lightBg : false,
+    lightBg : true,
     lightText : true,
     topLine : 'Exclusive Access',
     lightTextDesc :true,

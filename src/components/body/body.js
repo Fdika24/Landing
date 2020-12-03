@@ -10,9 +10,6 @@ class Body extends Component {
         return(
             <div>
                 <HeroSection {...homeObjOne} />
-                <div>
-                    <h1>Makan bang</h1>
-                </div>
             </div>
         );
     }

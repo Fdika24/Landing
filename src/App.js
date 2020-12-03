@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React, { Component } from 'react'
 import './App.css';
 import Body from "./components/body/body"
+import Footer from "./components/footer/footer";
 import Navbar from "./components/Navbar/main";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -23,6 +24,9 @@ class App extends Component {
           </Route>
         </Switch>
       </Router>
+      <div>
+        <Footer/>
+      </div>
     </div>
     );
   }
