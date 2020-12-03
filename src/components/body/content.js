@@ -1,17 +1,15 @@
-import myImage from '../images/work.svg'
-
 
 export const homeObjOne ={
     lightBg : true,
     lightText : true,
-    topLine : 'Exclusive Access',
+    topLine : '',
     lightTextDesc :true,
-    headline : 'Unlimited Blade Works with 0 mana',
-    description: 'Get access to our exclusive game with 0 p2w',
+    headline : ' Hello, My Name is Farhandika',
+    description: 'Undergraduate student at School of Electrical Engineering and Informatics Institut Teknologi Bandung',
     button : '',
-    img : '',
-    alt : 'Pat TT pala mantu',
-    imgStart :{myImage},
-    buttonLabel :'Get Started' ,
+    img : 'images/anywhere.svg',
+    alt : 'IMG not Found',
+    imgStart :'',
+    buttonLabel :'Get to Know Me' ,
 
 }

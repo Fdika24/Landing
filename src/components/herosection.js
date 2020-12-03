@@ -2,7 +2,6 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {Button} from './Button'
 import './hero.css'
-import myImage from './images/work.svg'
 
 function HeroSection({
     lightBg, topLine,lightText, lightTextDesc, headline, description, button , img, alt, imgStart, buttonLabel
@@ -17,14 +16,14 @@ function HeroSection({
                                 <div className="top-line">{topLine}</div>
                                 <h1 className={ lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                                 <p className={lightTextDesc ?'home__hero-subtitle': 'home__hero-subtitle dark'}>{description}</p>
-                                <Link to="/signup">
+                                <a href="https://www.linkedin.com/in/farhandika-zahrir-mufti-guenia-663b3a1b4">
                                     <Button buttonSize='btn--wide'>{buttonLabel}</Button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="col">
                             <div className="home__hero-img-wrapper">
-                                    <img src={myImage} alt={alt} className="home__hero-img"/>
+                                    <img src={img} alt={alt} className="home__hero-img"/>
                             </div>
                         </div>
                     </div>
